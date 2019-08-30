@@ -3,9 +3,9 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.tituslearning.niuqlearn"
-        versionCode = "37000"
-        android-versionCode="37000"
-        version   = "3.7.0">
+        versionCode = "37001"
+        android-versionCode="37001"
+        version   = "3.7.1">
     <name>NIU QLEARN</name>
 
     <description>
@@ -17,7 +17,7 @@
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
-        <string>3.7.0</string>
+        <string>3.7.1</string>
     </edit-config>
 
     <gap:platform name="ios" />
