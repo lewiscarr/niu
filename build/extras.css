@@ -40315,3 +40315,8 @@ ion-app.app-root.md .core-tabs-bar .tab-slide {
 ion-app.app-root .core-tabs-bar .tab-slide {
     background: #293855!important;
     }
+
+
+ion-app.app-root core-block .item-divider .icon {
+    color: #293855;
+}
