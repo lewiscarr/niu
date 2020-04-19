@@ -2,13 +2,13 @@
     "app_id": "com.tituslearning.niuqlearn",
     "appname": "NIU QLEARN",
     "desktopappname": "NIU QLEARN",
-    "versioncode": 3702,
-    "versionname": "3.7.2",
+    "versioncode": 3720,
+    "versionname": "3.7.7",
     "cache_update_frequency_usually": 420000,
     "cache_update_frequency_often": 1200000,
     "cache_update_frequency_sometimes": 3600000,
     "cache_update_frequency_rarely": 43200000,
-    "default_lang": "ja",
+    "default_lang": "en",
     "languages": {
         "ar": "عربي",
         "bg": "Български",
@@ -37,6 +37,7 @@
         "kn": "ಕನ್ನಡ",
         "ko": "한국어",
         "lt": "Lietuvių",
+        "lv": "Latviešu",
         "mr": "मराठी",
         "nl": "Nederlands",
         "no": "Norsk - bokmål",
@@ -58,19 +59,24 @@
     "wsextservice": "local_mobile",
     "demo_sites": {
         "student": {
-            "url": "https:\/\/school.demo.moodle.net",
+            "url": "https:\/\/school.moodledemo.net",
             "username": "student",
             "password": "moodle"
         },
         "teacher": {
-            "url": "https:\/\/school.demo.moodle.net",
+            "url": "https:\/\/school.moodledemo.net",
             "username": "teacher",
             "password": "moodle"
         }
     },
-    "customurlscheme": "niuqlearn",
-    "siteurl": "",
-    "sitename": "",
+    "font_sizes": [
+        62.5,
+        75.89,
+        93.75
+    ],
+    "customurlscheme": "edtmlearning",
+    "siteurl": "https://niu.9learn.net",
+    "sitename": "NIU QLEARN",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
@@ -82,7 +88,7 @@
     "statusbarlighttextios": true,
     "statusbarbgandroid": "#293855",
     "statusbarlighttextandroid": true,
-    "statusbarbgremotetheme": "#000000",
+    "statusbarbgremotetheme": "#293855",
     "statusbarlighttextremotetheme": true,
-    "enableanalytics": false
+    "enableanalytics": true
 }

@@ -1,42 +1,44 @@
 {
   "project_info": {
-    "project_number": "694767596569",
-    "firebase_url": "https://moodlemobile-push.firebaseio.com",
-    "project_id": "moodlemobile-push",
-    "storage_bucket": "moodlemobile-push.appspot.com"
+    "project_number": "1006561324475",
+    "firebase_url": "https://edtmlearning.firebaseio.com",
+    "project_id": "edtmlearning",
+    "storage_bucket": "edtmlearning.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:694767596569:android:a4cdad4d168c9d1a",
+        "mobilesdk_app_id": "1:1006561324475:android:0558a38c8813057223689e",
         "android_client_info": {
-          "package_name": "com.tituslearning.niuqlearn"
+          "package_name": "com.tituslearning.edtmlearning"
         }
       },
       "oauth_client": [
         {
-          "client_id": "694767596569-icveqqa2n56oh44l6ev1dr2oh67nh8il.apps.googleusercontent.com",
+          "client_id": "1006561324475-vk02labjgjntktolg8as8fi1pj0tctcr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCb2zogu0P_aZ2LNgdwzshWExITPKTXJyk"
-        },
-        {
-          "current_key": "AIzaSyDRT1HwT0gSsTty0whOVtoNKAh8SPrJXLE"
+          "current_key": "AIzaSyDnqBW8KZDCrkqF-PsfzhopX9RiyOBOIw4"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006561324475-vk02labjgjntktolg8as8fi1pj0tctcr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1006561324475-oh01c3uv8nqoe9f7vgs76s8h37e39abo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tituslearning.edtmlearning"
+              }
+            }
+          ]
         }
       }
     }
