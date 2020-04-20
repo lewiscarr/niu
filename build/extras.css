@@ -1,30 +1,30 @@
 a {
-	color: #231f20;
+	color: #253954;
 }
 .toolbar-background-md {
-	border-color: #231f20;
-	background: #231f20;
+	border-color: #253954;
+	background: #253954;
 }
 
 .toolbar-background {
-	border-color: #231f20;
-	background: #231f20;
+	border-color: #253954;
+	background: #253954;
 }
 /* Behind the tabs */
 .core-tabs-bar {
-	color: #231f20;
+	color: #253954;
 	background-color: #fff;
 }
 /* Active tab */
 ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] {
-	color: #231f20!important;
-	border-bottom-color: #231f20!important;
+	color: #253954!important;
+	border-bottom-color: #253954!important;
 	background: #fff!important;
 }
 /* In-active tab */
 ion-app.app-root .core-tabs-bar .tab-slide {
 	background: #fff;
-	color: #231f20;
+	color: #253954;
 }
 /* Graduation cap colour on frontpage - available courses */
 body.scheme-auto ion-app.app-root .ion-page .item ion-icon {
@@ -32,7 +32,7 @@ body.scheme-auto ion-app.app-root .ion-page .item ion-icon {
 }
 /* Available courses H2 colour */
 body.scheme-auto ion-app.app-root .ion-page .item h2 {
-	color: #231f20;
+	color: #253954;
 }
 /* Main app body background colour */
 body.scheme-auto ion-app.app-root .ion-page .content-md {
@@ -44,7 +44,7 @@ body.scheme-auto ion-app.app-root .ion-page .content {
 }
 /* Main app toolbar bottom or side */
 .tabs-md .tabbar {
-	background: #231f20;
+	background: #253954;
 }
 /* Main app toolbar bottom or side icon selected */
 .tabs-md .tab-button[aria-selected=true] .tab-button-icon {
@@ -68,7 +68,7 @@ body.scheme-auto ion-app.app-root .ion-page .content {
 }
 /* Show more truncated button */
 body.scheme-auto ion-app.app-root core-format-text[maxHeight].core-text-formatted.core-shortened .core-show-more {
-	background: #231f20;
+	background: #253954;
 	color: #fff;
 }
 /* Main app background - was grey */
@@ -86,24 +86,24 @@ on-app.app-root core-empty-box .core-empty-box .core-empty-box-content {
 	background: #fff;
 }
 ion-app.app-root addon-calendar-calendar .addon-calendar-day.today .addon-calendar-day-number span {
-	background: #231f20;
+	background: #253954;
 }
 /* Main app plus add icon */
 .fab-md {
-	background-color: #231f20;
+	background-color: #253954;
 	/* In-course dividers */
 }
 
 .fab {
-	background-color: #231f20;
+	background-color: #253954;
 	/* In-course dividers */
 }
 button.alert-button.alert-button-md.alert-button-default.alert-button-default-md.ng-star-inserted {
-	color: #231f20;
+	color: #253954;
 }
 
 button.alert-button.alert-button.alert-button-default.alert-button-default.ng-star-inserted {
-	color: #231f20;
+	color: #253954;
 }
 .select-text.ng-star-inserted {
 	color: #000;
@@ -125,16 +125,16 @@ button.alert-button.alert-button.alert-button-default.alert-button-default.ng-st
 	color: #000;
 }
 [dir=ltr] ion-app.app-root .core-primary-selected-item {
-	border-left: calc(env(safe-area-inset-left) + 5px) solid #231f20;
+	border-left: calc(env(safe-area-inset-left) + 5px) solid #253954;
 }
 
 .item-divider-md-light, .item-md-light {
 	color: #fff;
-	background-color: #231f20;
+	background-color: #253954;
 }
 .item-divider-light, .item-light {
 	color: #fff;
-	background-color: #231f20;
+	background-color: #253954;
 }
 span.button.button-md.button-clear.button-clear-md.button-clear-md-gray.item-button.ng-star-inserted {
 	background: transparent;
@@ -144,7 +144,7 @@ span.button.button.button-clear.button-clear.button-clear-gray.item-button.ng-st
 	background: transparent;
 }
 [dir=ltr] ion-app.app-root core-split-view .split-pane-visible .split-pane-side .core-split-item-selected {
-	border-left: 5px solid #231f20;
+	border-left: 5px solid #253954;
 }
 .toolbar-md-light .toolbar-background-md {
 	background: #fff;
@@ -153,164 +153,164 @@ span.button.button.button-clear.button-clear.button-clear-gray.item-button.ng-st
 	background: #fff;
 }
 ion-app.app-root .core-button-select .select-icon .select-icon-inner, ion-app.app-root ion-select.core-button-select .select-icon .select-icon-inner {
-	color: #ea4b14;
+	color: #2b6b9a;
 }
 .alert-md .alert-button {
-	color: #231f20;
+	color: #253954;
 }
 .alert .alert-button {
-	color: #231f20;
+	color: #253954;
 }
 p.item-heading.core-siteurl.ng-star-inserted {
 	display: none;
 }
 ion-item-divider.item.item-divider.item-md.item-divider-md {
-	background: #231f20;
+	background: #253954;
 	color: #fff;
 }
 ion-item-divider.item.item-divider.item.item-divider {
-	background: #231f20;
+	background: #253954;
 	color: #fff;
 }
 .item-md.item-input.ng-invalid.ng-touched:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
-	border-bottom-color: #231f20;
-	-webkit-box-shadow: inset 0 -1px 0 0 #231f20;
-	box-shadow: inset 0 -1px 0 0 #231f20;
+	border-bottom-color: #253954;
+	-webkit-box-shadow: inset 0 -1px 0 0 #253954;
+	box-shadow: inset 0 -1px 0 0 #253954;
 }
 .item.item-input.ng-invalid.ng-touched:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
-	border-bottom-color: #231f20;
-	-webkit-box-shadow: inset 0 -1px 0 0 #231f20;
-	box-shadow: inset 0 -1px 0 0 #231f20;
+	border-bottom-color: #253954;
+	-webkit-box-shadow: inset 0 -1px 0 0 #253954;
+	box-shadow: inset 0 -1px 0 0 #253954;
 }
 .item-md.item-input.input-has-focus .item-inner, .item-md.item-input.item-input-has-focus .item-inner {
-	border-bottom-color: #231f20;
-	-webkit-box-shadow: inset 0 -1px 0 0 #231f20;
-	box-shadow: inset 0 -1px 0 0 #231f20;
+	border-bottom-color: #253954;
+	-webkit-box-shadow: inset 0 -1px 0 0 #253954;
+	box-shadow: inset 0 -1px 0 0 #253954;
 }
 .item.item-input.input-has-focus .item-inner, .item.item-input.item-input-has-focus .item-inner {
-	border-bottom-color: #231f20;
-	-webkit-box-shadow: inset 0 -1px 0 0 #231f20;
-	box-shadow: inset 0 -1px 0 0 #231f20;
+	border-bottom-color: #253954;
+	-webkit-box-shadow: inset 0 -1px 0 0 #253954;
+	box-shadow: inset 0 -1px 0 0 #253954;
 }
 .button-clear-md {
-	color: #231f20;
+	color: #253954;
 }
 .button-clear {
-	color: #231f20;
+	color: #253954;
 }
 button.disable-hover.button.button-md.button-default.button-default-md.button-block.button-block-md {
-	background: #231f20;
+	background: #253954;
 }
 button.disable-hover.button.button.button-default.button-default.button-block.button-block {
-	background: #231f20;
+	background: #253954;
 }
 ion-app.app-root page-core-user-profile .core-user-communication-handlers .core-user-profile-handler .icon {
-	background-color: #231f20;
+	background-color: #253954;
 }
 .action-sheet-md .action-sheet-title {
-	color: #231f20;
+	color: #253954;
 }
 .action-sheet .action-sheet-title {
-	color: #231f20;
+	color: #253954;
 }
 
 span.core-button-select-text {
-	color: #231f20;
+	color: #253954;
 }
 ion-icon.icon.fa.fa-folder {
-	color: #231f20;
+	color: #253954;
 }
 ion-app.app-root core-course-format .core-format-progress-list .item progress .progress-bar-fallback {
 	background-color: #f1f1f1;
 }
 ion-col.col.ng-star-inserted p {
-	color: #231f20;
+	color: #253954;
 }
 ion-app.app-root button.core-button-select .core-button-select-text {
-	color: #231f20!important;
+	color: #253954!important;
 }
 ion-icon.icon.icon-md.ion-md-arrow-dropdown {
-	color: #231f20!important;
+	color: #253954!important;
 }
 ion-icon.icon.icon.ion-arrow-dropdown {
-	color: #231f20!important;
+	color: #253954!important;
 }
 ion-app.app-root core-block .item-divider .icon {
 	color: #fff!important;
 }
 
 a.button.button-md.button-default.button-default-md.button-block.button-block-md.item-button.ng-star-inserted {
-	background: #231f20;
+	background: #253954;
 }
 a.button.button.button-default.button-default.button-block.button-block.item-button.ng-star-inserted {
-	background: #231f20;
+	background: #253954;
 }
 
 button.disable-hover.core-user-profile-handler.addon-messages-removecontact-handler.button.button-md.button-outline.button-outline-md.button-block.button-block-md.item-button.ng-star-inserted {
-	border-color: blue;
-	color: #231f20;
+	border-color: #253954;
+	color: #253954;
 }
 button.disable-hover.core-user-profile-handler.addon-messages-removecontact-handler.button.button.button-outline.button-outline.button-block.button-block.item-button.ng-star-inserted {
 	border-color: blue;
-	color: #231f20;
+	color: #253954;
 }
 button.disable-hover.core-user-profile-handler.addon-messages-blockcontact-handler.button.button-md.button-outline.button-outline-md.button-block.button-block-md.item-button.ng-star-inserted {
-	border-color: #231f20;
-	color: #231f20;
+	border-color: #253954;
+	color: #253954;
 }
 button.disable-hover.core-user-profile-handler.addon-messages-blockcontact-handler.button.button.button-outline.button-outline.button-block.button-block.item-button.ng-star-inserted {
-	border-color: #231f20;
-	color: #231f20;
+	border-color: #253954;
+	color: #253954;
 }
 ion-app.app-root button.core-button-select .core-button-select-text {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	line-height: 2em;
 	white-space: nowrap;
-	color: #231f20;
+	color: #253954;
 }
 a.disable-hover.button.button-md.button-default.button-default-md.button-block.button-block-md {
-	background: #231f20;
+	background: #253954;
 }
 a.disable-hover.button.button.button-default.button-default.button-block.button-block {
-	background: #231f20;
+	background: #253954;
 }
 .button-outline-md {
-	border-color: #231f20;
-	color: #231f20;
+	border-color: #253954;
+	color: #253954;
 }
 .button-outline {
-	border-color: #231f20;
-	color: #231f20;
+	border-color: #253954;
+	color: #253954;
 }
 .core-button-select {
-	color: #231f20!important;
+	color: #253954!important;
 }
 
 ion-app.app-root .button-light {
-	color: #231f20!important;
+	color: #253954!important;
 }
 a.disable-hover.item-button.button.button-md.button-default.button-default-md.button-block.button-block-md {
-	background: #231f20!important
+	background: #253954!important
 }
 a.disable-hover.item-button.button.button.button-default.button-default.button-block.button-block {
-	background: #231f20!important
+	background: #253954!important
 }
 .fab-md.activated {
-	background: #ea4b14;
+	background: #2b6b9a;
 }
 .fab.activated {
-	background: #ea4b14;
+	background: #2b6b9a;
 }
 button.disable-hover.button.button-md.button-default.button-default-md.ng-star-inserted {
-	background: #231f20!important
+	background: #253954!important
 }
 button.disable-hover.button.button.button-default.button-default.ng-star-inserted {
-	background: #231f20!important
+	background: #253954!important
 }
 a.disable-hover.button.button-md.button-default.button-default-md.button-block.button-block-md.button-md-light.ng-star-inserted {
 	background: #fff;
-	color: #231f20!important;
+	color: #253954!important;
 }
 a.disable-hover.button.button.button-default.button-default.button-block.button-block.button-light.ng-star-inserted {
 	background: #fff;
@@ -325,11 +325,11 @@ p.item-heading.core-siteurl.ng-star-inserted {
 
 
 [dir=ltr] ion-app.app-root core-ion-tabs[tabsplacement=side] .tabbar {
-   background: #231f20!important;
+   background: #253954!important;
 }
 
 .tabbar.show-tabbar {
-    background: #231f20!important;
+    background: #253954!important;
 }
 
 ion-app.app-root.ios .button-ios-light {
@@ -339,22 +339,22 @@ ion-app.app-root.ios .button-ios-light {
 
 .button-ios {
     color: #fff;
-    background-color: #231f20;
+    background-color: #253954;
 }
 
 .button-ios:active {
     color: #fff;
-    background: #231f20;
+    background: #253954;
 }
 
 .button-ios:focus {
     color: #fff;
-    background: #231f20;
+    background: #253954;
 }
 
 
 .tabs-ios .tab-button[aria-selected=true] {
- background: #231f20;
+ background: #253954;
 }
 
 
@@ -362,7 +362,7 @@ ion-app.app-root.ios .button-ios-light {
 
 .button-md-light {
     
-    background-color: #393939;
+    background-color: #2b6b9a;
 }
 
 
@@ -370,17 +370,17 @@ ion-app.app-root.ios .button-ios-light {
   
   
   .refresher-refreshing .spinner-crescent circle, .refresher-refreshing .spinner-ios line, .refresher-refreshing .spinner-ios-small line {
-    stroke: #231f20;
+    stroke: #253954;
 }
 
 
 .spinner-md-crescent circle {
-    stroke: #231f20;
+    stroke: #253954;
 }
 
 .refresher-pulling-icon, .refresher-refreshing-icon {
     
-    color: #231f20;
+    color: #253954;
    
 }
 
@@ -390,7 +390,7 @@ ion-app.app-root.ios .button-ios-light {
 
 .button-md-primary {
    
-    background-color: #231f20;
+    background-color: #253954;
 }
 
 
@@ -405,53 +405,53 @@ span.disable-hover.button.button-ios.button-clear.button-clear-ios.button-clear-
 
 
 .button-clear-md:hover:not(.disable-hover) {
-    background-color: #231f20;
+    background-color: #253954;
 }
 
 
 
 .ion-color-primary {
-    --ion-color-base: var(--ion-color-primary, #231f20)!important;
-    --ion-color-base-rgb: var(--ion-color-primary, #231f20)!important;
-    --ion-color-contrast: var(--ion-color-primary-contrast, #231f20)!important;
-    --ion-color-contrast-rgb: var(--ion-color-primary-contrast, #231f20)!important;
-    --ion-color-shade: var(--ion-color-primary-shade, #231f20)!important;
-    --ion-color-tint: var(--ion-color-primary-tint, #231f20)!important;
+    --ion-color-base: var(--ion-color-primary, #253954)!important;
+    --ion-color-base-rgb: var(--ion-color-primary, #253954)!important;
+    --ion-color-contrast: var(--ion-color-primary-contrast, #253954)!important;
+    --ion-color-contrast-rgb: var(--ion-color-primary-contrast, #253954)!important;
+    --ion-color-shade: var(--ion-color-primary-shade, #253954)!important;
+    --ion-color-tint: var(--ion-color-primary-tint, #253954)!important;
 }
 
 .ion-color-secondary {
-    --ion-color-base: var(--ion-color-primary, #231f20)!important;
-    --ion-color-base-rgb: var(--ion-color-primary, #231f20)!important;
-    --ion-color-contrast: var(--ion-color-primary-contrast, #231f20)!important;
-    --ion-color-contrast-rgb: var(--ion-color-primary-contrast, #231f20)!important;
-    --ion-color-shade: var(--ion-color-primary-shade, #231f20)!important;
-    --ion-color-tint: var(--ion-color-primary-tint, #231f20)!important;
+    --ion-color-base: var(--ion-color-primary, #253954)!important;
+    --ion-color-base-rgb: var(--ion-color-primary, #253954)!important;
+    --ion-color-contrast: var(--ion-color-primary-contrast, #253954)!important;
+    --ion-color-contrast-rgb: var(--ion-color-primary-contrast, #253954)!important;
+    --ion-color-shade: var(--ion-color-primary-shade, #253954)!important;
+    --ion-color-tint: var(--ion-color-primary-tint, #253954)!important;
 }
 
 .ion-color-tertiary {
-    --ion-color-base: var(--ion-color-primary, #231f20)!important;
-    --ion-color-base-rgb: var(--ion-color-primary, #231f20)!important;
-    --ion-color-contrast: var(--ion-color-primary-contrast, #231f20)!important;
-    --ion-color-contrast-rgb: var(--ion-color-primary-contrast, #231f20)!important;
-    --ion-color-shade: var(--ion-color-primary-shade, #231f20)!important;
-    --ion-color-tint: var(--ion-color-primary-tint, #231f20)!important;
+    --ion-color-base: var(--ion-color-primary, #253954)!important;
+    --ion-color-base-rgb: var(--ion-color-primary, #253954)!important;
+    --ion-color-contrast: var(--ion-color-primary-contrast, #253954)!important;
+    --ion-color-contrast-rgb: var(--ion-color-primary-contrast, #253954)!important;
+    --ion-color-shade: var(--ion-color-primary-shade, #253954)!important;
+    --ion-color-tint: var(--ion-color-primary-tint, #253954)!important;
 }
 
 
 ion-item.core-course-link.item.item-block.item-ios.core-course-more-than-title .button-ios {
     background: none;
-    color: #231f20;
+    color: #253954;
 }
 
 
 ion-item-divider.item.item-divider.item.item-divider .button-ios {
     background: none;
-    color: #231f20;
+    color: #253954;
 }
 
 
 [dir=ltr] ion-app.app-root .core-modal-lateral .core-nav-item-selected, [dir=ltr] ion-app.app-root .core-modal-lateral .item.core-nav-item-selected {
-    border-left: 5px solid #231f20;
+    border-left: 5px solid #253954;
 }
 
 form.ng-untouched.ng-pristine.ng-valid.ng-star-inserted h2 {
@@ -471,7 +471,7 @@ ion-item-divider.item.item-divider.item-md.item-divider-md h2 {
 
 
 .spinner-ios-ios line, .spinner-ios-ios-small line {
-    stroke: #231f20!important;
+    stroke: #253954!important;
 }
 
 
@@ -485,60 +485,60 @@ ion-item-divider.item.item-divider.item-md.item-divider-md p {
 
 
 ion-app.app-root page-addon-mod-lesson-player .addon-mod_lesson-pagebuttons .button-block {
-    background: #231f20;
+    background: #253954;
 }
 
 ion-app.app-root page-addon-mod-lesson-player .addon-mod_lesson-pagebuttons .button-block:hover {
-    background: #231f20;
+    background: #253954;
 }
 
 ion-app.app-root page-addon-mod-lesson-player .addon-mod_lesson-pagebuttons .button-block:focus {
-    background: #231f20;
+    background: #253954;
 }
 
 ion-app.app-root page-addon-mod-lesson-player .addon-mod_lesson-pagebuttons .button-block:active {
-    background: #231f20;
+    background: #253954;
 }
 
 
 .toggle-ios.toggle-checked .toggle-icon {
-    background-color: #231f20;
+    background-color: #253954;
 }
 
 toggle-md.toggle-checked .toggle-icon {
-    background-color: #231f20;
+    background-color: #253954;
 }
 
 .toggle-md.toggle-checked .toggle-inner {
-    background-color: #231f20;
+    background-color: #253954;
 }
 
 
 .segment-md-primary .segment-button.activated, .segment-md-primary .segment-button.segment-activated {
-    border-color: #231f20;
-    color: #231f20;
+    border-color: #253954;
+    color: #253954;
     
 }
 
 
 ion-app.app-root ion-select .select-icon .select-icon-inner {
-    color: #231f20;
+    color: #253954;
 }
 
 toggle-md.toggle-checked .toggle-icon {
-    background-color: #231f20;
+    background-color: #253954;
 }
 
 .toggle-md .toggle-icon {
-	 background-color: #231f20;
+	 background-color: #253954;
 }
 
 .toggle-md.toggle-checked .toggle-icon {
-    background-color: #ea4b14!important;
+    background-color: #2b6b9a!important;
 }
 
 .segment-md-primary .segment-button {
-    color: #231f20!important;;
+    color: #253954!important;;
 }
 
 
@@ -546,30 +546,30 @@ toggle-md.toggle-checked .toggle-icon {
 
 .segment-ios-primary .segment-button.segment-activated {
     color: #fff;
-    background-color: #231f20!important;
+    background-color: #253954!important;
 }
 
 .segment-ios-primary .segment-button {
-    border-color: #231f20!important;
-    color: #231f20!important;;
+    border-color: #253954!important;
+    color: #253954!important;;
 }
 
 .segment-ios-primary .segment-button {
-    border-color: #231f20!important;
-    color: #231f20!important;
+    border-color: #253954!important;
+    color: #253954!important;
 }
 
 
 .segment-ios-primary .segment-button.segment-activated {
     color: #fff;
-    background-color: #231f20!important;
+    background-color: #253954!important;
 }
 
 
 
 
 .segment-ios-primary .segment-button.segment-activated {
-background: #231f20!important;	
+background: #253954!important;	
 	color:#fff!important;
 }
 
@@ -579,16 +579,16 @@ background: #231f20!important;
 }
 
 a.item.item-block.item-ios .button-ios {
-   color: #231f20!important;
+   color: #253954!important;
 }
 
 button#core-course-section-button span.core-button-select-text {
-    color: #231f20!important
+    color: #253954!important
 }
 
 
  ion-icon.icon.icon-ios.ion-md-arrow-dropdown {
-    color: #231f20!important
+    color: #253954!important
 }
 
 
@@ -609,12 +609,12 @@ background: inherit;
 
 
 ion-app.app-root page-addon-mod-lesson-player .addon-mod_lesson-pagebuttons .button-block {
-    background: #231f20!important;
+    background: #253954!important;
     color: #fff!important;
 }
 
 span.core-button-select-text {
-   color: #231f20!important;
+   color: #253954!important;
 }
 
 
@@ -630,11 +630,11 @@ ion-label {
 
 
 .core-button-select-text {
-	color: #231f20!important;
+	color: #253954!important;
 }
 
 span.core-button-select-text {
-	color: #231f20!important;
+	color: #253954!important;
 }
 
 
@@ -676,28 +676,28 @@ color:#fff;
 
 
 .loading-md .spinner-crescent circle {
-    stroke: #231f20;
+    stroke: #253954;
 }
 
 .spinner-md-crescent circle {
-    stroke: #231f20;
+    stroke: #253954;
 }
 .loading .spinner-crescent circle {
-    stroke: #231f20;
+    stroke: #253954;
 }
 
 .spinner-crescent circle {
-    stroke: #231f20;
+    stroke: #253954;
 }
 
 
 .badge-md {
    
-    background-color: #231f20;
+    background-color: #253954;
     }
 
 
 .badge {
    
-    background-color: #231f20;
+    background-color: #253954;
     }
