@@ -701,3 +701,20 @@ color:#fff;
    
     background-color: #253954;
     }
+
+
+a.core-navigation-bar-arrow.button.button-md.button-default.button-default-md.ng-star-inserted {
+background-color: #253954;
+}
+
+a.core-navigation-bar-arrow.button.button.button-default.button-default.ng-star-inserted {
+background-color: #253954;
+}
+
+button.item-button.button.button-md.button-default.button-default-md.button-block.button-block-md {
+   background-color: #253954;
+}
+
+button.item-button.button.button.button-default.button-default.button-block.button-block {
+   background-color: #253954;
+}
