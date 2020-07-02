@@ -2,19 +2,19 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.tituslearning.niuqlearn" 
+        id        = "com.tituslearning.sama"
         versionCode = "38000"
         android-versionCode = "38001"
         ios-CFBundleVersion = "3.8.0.1"
         version   = "3.8.0">
-    <name>NIU QLEARN</name>
+    <name>SamaU</name>
 
     <description>
-        NIU QLEARN
+       SamaU
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+    <author href="http://moodle.com" email="mobile@tituslearning.com">
+       Titus Learning Mobile team
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
@@ -75,7 +75,7 @@
 
     <platform name="android">
         <resource-file src="MainActivity.java" target="app/src/main/java/com/moodle/moodlemobile/MainActivity.java" />
-       
+        <resource-file src="google-services.json" target="app/google-services.json" />
         <resource-file src="resources/values/colors.xml" target="app/src/main/res/values/colors.xml" />
         <icon background="@color/background" density="ldpi" foreground="resources/android/icon/ldpi-foreground.png" src="resources/android/icon/drawable-ldpi-icon.png" />
         <icon background="@color/background" density="mdpi" foreground="resources/android/icon/mdpi-foreground.png" src="resources/android/icon/drawable-mdpi-icon.png" />
@@ -114,7 +114,7 @@
     </platform>
 
     <platform name="ios">
-       
+        <resource-file src="GoogleService-Info.plist" />
         <icon src="resources/ios/icon/icon.png" width="57" height="57"/>
         <icon src="resources/ios/icon/icon@2x.png" width="114" height="114"/>
         <icon src="resources/ios/icon/icon-40.png" width="40" height="40"/>
@@ -175,7 +175,7 @@
     <gap:plugin name="cordova-plugin-badge" source="npm" spec="0.8.8" />
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="4.1.0" />
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" spec="4.4.0">
-        <param name="URL_SCHEME" value="niuqlearn" />
+        <param name="URL_SCHEME" value="sama" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-device" source="npm" spec="2.0.3" />
     <gap:plugin name="cordova-plugin-file" source="npm" spec="6.0.2" />
@@ -237,10 +237,10 @@
         
     <!-- Disable firebase analytics. -->
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
-        <meta-data android:name="firebase_analytics_collection_deactivated" android:value="true" />
+        <meta-data android:name="firebase_analytics_collection_deactivated" android:value="false" />
     </config-file>
     <config-file target="*-Info.plist" parent="FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED">
-        <string>YES</string>
+        <string>No</string>
     </config-file>
 
     <config-file target="*-Info.plist" parent="CFBundleDocumentTypes">

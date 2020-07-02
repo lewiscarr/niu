@@ -75,7 +75,7 @@
         93.75
     ],
     "customurlscheme": "niuqlearn",
-    "siteurl": "https://niu.9learn.net",
+    "siteurl": "https://niu.9learn.net/",
     "sitename": "NIU QLEARN",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
@@ -86,9 +86,9 @@
     "statusbarlighttext": false,
     "statusbarbgios": "#293855",
     "statusbarlighttextios": true,
-    "statusbarbgandroid": "#293855",
+    "statusbarbgandroid": "##293855",
     "statusbarlighttextandroid": true,
-    "statusbarbgremotetheme": "#000000",
+    "statusbarbgremotetheme": "#293855",
     "statusbarlighttextremotetheme": true,
     "enableanalytics": true,
     "forceColorScheme": ""
