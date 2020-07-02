@@ -75,7 +75,7 @@
 
     <platform name="android">
         <resource-file src="MainActivity.java" target="app/src/main/java/com/moodle/moodlemobile/MainActivity.java" />
-        <resource-file src="google-services.json" target="app/google-services.json" />
+       
         <resource-file src="resources/values/colors.xml" target="app/src/main/res/values/colors.xml" />
         <icon background="@color/background" density="ldpi" foreground="resources/android/icon/ldpi-foreground.png" src="resources/android/icon/drawable-ldpi-icon.png" />
         <icon background="@color/background" density="mdpi" foreground="resources/android/icon/mdpi-foreground.png" src="resources/android/icon/drawable-mdpi-icon.png" />
@@ -114,7 +114,7 @@
     </platform>
 
     <platform name="ios">
-        <resource-file src="GoogleService-Info.plist" />
+       
         <icon src="resources/ios/icon/icon.png" width="57" height="57"/>
         <icon src="resources/ios/icon/icon@2x.png" width="114" height="114"/>
         <icon src="resources/ios/icon/icon-40.png" width="40" height="40"/>
