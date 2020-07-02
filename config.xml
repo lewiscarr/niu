@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "com.tituslearning.niulearn"
         versionCode = "38000"
         android-versionCode = "38001"
         ios-CFBundleVersion = "3.8.0.1"
@@ -10,7 +10,7 @@
     <name>NIU QLEARN</name>
 
     <description>
-       NIU QLERN
+       NIU QLEARN
     </description>
 
     <author href="http://moodle.com" email="mobile@tituslearning.com">
@@ -175,7 +175,7 @@
     <gap:plugin name="cordova-plugin-badge" source="npm" spec="0.8.8" />
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="4.1.0" />
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" spec="4.4.0">
-        <param name="URL_SCHEME" value="moodlemobile" />
+        <param name="URL_SCHEME" value="niuqlearn" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-device" source="npm" spec="2.0.3" />
     <gap:plugin name="cordova-plugin-file" source="npm" spec="6.0.2" />
