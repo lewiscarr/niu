@@ -90,6 +90,6 @@
     "statusbarlighttextandroid": true,
     "statusbarbgremotetheme": "#293855",
     "statusbarlighttextremotetheme": true,
-    "enableanalytics": false,
+    "enableanalytics": true,
     "forceColorScheme": ""
 }

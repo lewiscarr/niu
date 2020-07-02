@@ -2,28 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
-	<string>ca-app-pub-3940256099942544/2934735716</string>
-	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
-	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>694767596569-c2cjrca92k99f6nkp3363lsb7ljhdgdr.apps.googleusercontent.com</string>
+	<string>826955551625-63i2m889ljefjj7af6hb8gctllhrp31f.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.694767596569-c2cjrca92k99f6nkp3363lsb7ljhdgdr</string>
+	<string>com.googleusercontent.apps.826955551625-63i2m889ljefjj7af6hb8gctllhrp31f</string>
 	<key>API_KEY</key>
-	<string>AIzaSyA-77ZjkxII6GV97CC9rdUl83rzdEXu_rM</string>
+	<string>AIzaSyD45RgJOIkP3zhsgQuE_i5wKz8MZLF7ujU</string>
 	<key>GCM_SENDER_ID</key>
-	<string>694767596569</string>
+	<string>826955551625</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.tituslearning.niuqlearn</string>
 	<key>PROJECT_ID</key>
-	<string>moodlemobile-push</string>
+	<string>niu-moodle</string>
 	<key>STORAGE_BUCKET</key>
-	<string>moodlemobile-push.appspot.com</string>
+	<string>niu-moodle.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true></true>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
 	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
@@ -33,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:694767596569:ios:a4cdad4d168c9d1a</string>
+	<string>1:826955551625:ios:fcd29d9913be4f6df28758</string>
 	<key>DATABASE_URL</key>
-	<string>https://moodlemobile-push.firebaseio.com</string>
+	<string>https://niu-moodle.firebaseio.com</string>
 </dict>
 </plist>
