@@ -7,10 +7,10 @@
         android-versionCode = "38001"
         ios-CFBundleVersion = "3.8.0.1"
         version   = "3.8.0">
-    <name>SamaU</name>
+    <name>NIU QLEARN</name>
 
     <description>
-       SamaU
+      NIU QLEARN
     </description>
 
     <author href="http://moodle.com" email="mobile@tituslearning.com">
