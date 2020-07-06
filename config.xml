@@ -3,10 +3,10 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.tituslearning.niuqlearn"
-        versionCode = "38004"
-        android-versionCode = "38004"
+        versionCode = "38002"
+        android-versionCode = "38002"
         ios-CFBundleVersion = "3.8.0.2"
-        version   = "3.8.1">
+        version   = "3.8.2">
     <name>NIU QLEARN</name>
 
     <description>
@@ -14,11 +14,11 @@
     </description>
 
     <author href="http://moodle.com" email="mobile@tituslearning.com">
-       Titus Mobile Team
+        Titus Learning Mobile team
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
-        <string>3.8.1</string>
+        <string>3.8.2</string>
     </edit-config>
 
     <gap:platform name="ios" />
@@ -175,7 +175,7 @@
     <gap:plugin name="cordova-plugin-badge" source="npm" spec="0.8.8" />
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="4.1.0" />
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" spec="4.4.0">
-        <param name="URL_SCHEME" value="niuqlearn" />
+        <param name="URL_SCHEME" value="moodlemobile" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-device" source="npm" spec="2.0.3" />
     <gap:plugin name="cordova-plugin-file" source="npm" spec="6.0.2" />
@@ -231,16 +231,16 @@
     </edit-config>
 
    <!-- Make gps location optional, otherwise apps that don't support it won't be able to install the app. -->
-    <edit-config file="AndroidManifest.xml" mode="overwrite"target="/manifest/uses-feature[@android:name='android.hardware.location.gps']"> 
-<uses-feature android:name="android.hardware.location.gps"android:required="false" /> 
-</edit-config> 
+    <edit-config file="AndroidManifest.xml" mode="overwrite" target="/manifest/uses-feature[@android:name='android.hardware.location.gps']">
+        <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+    </edit-config>     
         
     <!-- Disable firebase analytics. -->
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
-        <meta-data android:name="firebase_analytics_collection_deactivated" android:value="false" />
+        <meta-data android:name="firebase_analytics_collection_deactivated" android:value="true" />
     </config-file>
     <config-file target="*-Info.plist" parent="FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED">
-        <string>NO</string>
+        <string>YES</string>
     </config-file>
 
     <config-file target="*-Info.plist" parent="CFBundleDocumentTypes">
