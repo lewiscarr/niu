@@ -231,9 +231,9 @@
     </edit-config>
 
    <!-- Make gps location optional, otherwise apps that don't support it won't be able to install the app. -->
-    <edit-config file="AndroidManifest.xml" mode="overwrite" target="/manifest/uses-feature[@android:name='android.hardware.location.gps']">
-        <uses-feature android:name="android.hardware.location.gps" android:required="false" />
-    </edit-config>     
+    <custom-config-file parent="/*" target="AndroidManifest.xml"> 
+<uses-feature android:name="android.hardware.location.gps"android:required="false" /> 
+</custom-config-file>  
         
     <!-- Disable firebase analytics. -->
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
